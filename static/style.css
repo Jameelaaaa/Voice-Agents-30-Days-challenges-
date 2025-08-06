@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 40%;
+  border: 2px solid transparent;
+  background-image: linear-gradient(#fff, #fff), linear-gradient(45deg, #ff1493, #8a2be2);
+  background-origin: padding-box, border-box;
+  background-clip: padding-box, border-box;
+  border-radius: 15px;
+}
+
+h1 {
+  background: linear-gradient(45deg, #ff1493, #8a2be2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+button {
+  background: linear-gradient(45deg, #ff1493, #8a2be2);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px 60px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #8a2be2, #ff1493);
+  box-shadow: 0 4px 15px rgba(255, 20, 147, 0.7);
+}
+
+#customAlert {
+  display: none;
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  padding: 12px 20px;
+  border: 2px solid transparent;
+  background-image: linear-gradient(#fff, #fff), linear-gradient(45deg, #ff1493, #8a2be2);
+  background-origin: padding-box, border-box;
+  background-clip: padding-box, border-box;
+  border-radius: 10px;
+  font-size: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+}
